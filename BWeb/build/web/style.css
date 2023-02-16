@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 11, 2023, 6:18:51 PM
+    Author     : SMV
+*/
+h3{
+    color: green;
+}
+.hrt hr{
+    height: 10px;
+    background:linear-gradient(to right, #3ebf02,#ff6b08, #cf23cf, #170ce8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:anything;
+    opacity: 1;
+    border: 10px;
+}
+.image-preview-container{
+    width: 30%;
+    margin:0 auto;
+    border:1px solid rgba(0,0,0,0.1);
+    padding : 0.5rem;
+    border-radius: 10px;
+}
+.image-preview-container input{
+    display: none;
+}
+.image-preview-container img{
+    width:70%;
+    display: none;
+    margin-bottom: 10px;
+    margin-left: 15%;
+}
+
+.image-preview-container label{
+    display: block;
+    width: 70%;
+    height: 45px;
+    margin-left: 15%;
+    text-align : center;
+    background-image: linear-gradient(to right, #edb70e, #e33c0b, #0fa619);
+    color:white;
+    font-size: 15px;
+    text-transform: Uppercase;
+    font-weight:400;
+    border-radius: 5px;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    max-width: 130%;
+}
+.gbutton{
+    color:white;
+    background-image: linear-gradient(to right, #edb70e, #e33c0b, #0fa619);
+    
+}
+.text{
+    background: linear-gradient(to right, #3ebf02,#ff6b08, #cf23cf, #170ce8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.content{
+    width: 80%;
+}
+.content img{
+    width: 110px;
+    height: 135px;
+    margin:20px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.content ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    margin-left: -40px;
+    
+}
+.image {
+    flex-basis:15%;
+}
